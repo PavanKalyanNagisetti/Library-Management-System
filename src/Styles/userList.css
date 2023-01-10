@@ -1,0 +1,22 @@
+.userList {
+    display: inline;
+}
+.usercard{
+
+    border: 2px solid black;
+    height: 250px;
+    width: 25%;
+    background-color: antiquewhite;
+    text-align: left;
+    
+    justify-content: space-around;
+    display: inline-block;
+    margin: 20px;
+    padding: 5px;
+}
+.users_section{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

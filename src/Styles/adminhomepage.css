@@ -1,0 +1,39 @@
+
+.adminnavbar{
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(19, 173, 197);
+    
+    margin-top: 0px;
+}
+
+.adminnavbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 20px;
+    position: relative;
+ }
+ .adminnavbar ul li a{
+     text-decoration: none;
+     color: white ;
+     text-transform: uppercase;
+ }
+ .adminnavbar ul li ::after{
+    content:'' ;
+    height: 3px;
+    width: 0;
+    background: #0a46a0;
+    position: absolute;
+    left: 0;
+    bottom: -7px;
+    transition: 0.8s;
+}
+.adminnavbar ul li:hover ::after{
+    width: 100%;
+}
+h1{
+    color:black;
+    margin-top: 3px;
+}

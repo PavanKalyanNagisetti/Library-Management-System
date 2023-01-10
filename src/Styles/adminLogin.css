@@ -1,0 +1,19 @@
+
+.adminLogin{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 230px auto;
+    width: 500px;
+    height: 300px;
+    background-color: aliceblue;
+    border: 2px double rgb(14, 158, 214);
+    border-radius: 10px;
+}
+input{
+    border: none;
+    padding: 5px 35px;
+    border-bottom: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+}

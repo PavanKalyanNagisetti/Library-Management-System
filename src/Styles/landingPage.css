@@ -1,0 +1,60 @@
+body{
+   
+   background-image: url('/public/images/bg.png');
+   
+   background-size: cover;
+   
+}
+.landingpage{
+   height: 400px;
+   width: 650px;
+   background-image: url('/public/images/bg3.jpg');
+   background-size: cover;
+   background-color: rgb(190, 226, 239);
+   margin: 100px auto;
+   margin-top: 150px;
+   display: flex;
+   justify-content: center;
+   border: 5px solid black;
+   border-radius: 10px;
+}
+.head{
+   color: black;
+}
+.login{
+   margin-top: 100px;
+   display: flex;
+   justify-content: space-around;
+   text-decoration: none;
+}
+
+img{
+  
+   border-radius: 10px;
+}
+
+
+ /* a{
+   text-decoration: none;
+   color: rgb(45, 230, 12); 
+} */
+
+
+button{
+   width: 120px;
+   padding: 10px 0;
+   
+   margin: 20px 10px;
+   border-radius: 25px;
+   font-weight: bold;
+   border: 2px solid #010101;
+   background: transparent;
+   color: rgb(12, 152, 14);
+   cursor: pointer;
+   position: relative;
+   overflow: hidden;
+}
+
+button:hover{
+   border: none;
+}
