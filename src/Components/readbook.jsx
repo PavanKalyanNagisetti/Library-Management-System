@@ -6,7 +6,7 @@ const ReadBook = (props) => {
     let params =useParams()
     useEffect(()=>{
         let fetchData=async() =>{
-            let response=await fetch (`http://localhost:3000/books/${params.id}`)
+            let response=await fetch (`http://localhost:4000/books/${params.id}`)
             let data =await response.json()
             setBook(data)
         }

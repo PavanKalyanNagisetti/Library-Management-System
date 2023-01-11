@@ -4,7 +4,7 @@ const AdminNavbar = () => {
     return ( 
         <div className="adminnavbar">
             <div className="logo">
-                 {/* <img src="images/admin1.jpeg" alt="" />  */}
+                 {/* <img src="images/admin1.jpeg" height="10" width="40" alt="" />   */}
                   <h1><b>Admin Portal</b> </h1>
             </div>
             <div className="lists">

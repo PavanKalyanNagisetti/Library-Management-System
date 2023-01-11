@@ -19,9 +19,11 @@
     margin-top: 5px;
     border-radius: 5px;
     text-align: center;
+    width: 465px;
+    height: 100px;
 }
 .form button{
     margin-left: 180px;
-    color: blue;
+    color: rgb(42, 118, 219);
 }
 

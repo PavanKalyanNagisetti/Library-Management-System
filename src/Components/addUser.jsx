@@ -27,7 +27,7 @@ const AddUser = () => {
         <div className="addUser">
             <h1>Add a New User </h1>
            
-                <div className="form">
+                <div className="forms">
                     <form action="" onSubmit={handleSubmit}>
                         <div className="name">
                             {/* <label  htmlFor="">Title           :</label>  */}
