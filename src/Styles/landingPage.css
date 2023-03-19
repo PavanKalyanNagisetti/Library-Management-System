@@ -1,25 +1,31 @@
-body{
+/* body{
    
-   background-image: url('/public/images/bg.png');
+   background-image: url('/public/images/bg.jpg');
    
    background-size: cover;
+  
    
-}
+} */
 .landingpage{
-   height: 400px;
-   width: 650px;
-   background-image: url('/public/images/bg3.jpg');
+   background-image: url('/public/images/landing.jpg');
    background-size: cover;
-   background-color: rgb(190, 226, 239);
-   margin: 100px auto;
-   margin-top: 150px;
-   display: flex;
-   justify-content: center;
-   border: 5px solid black;
-   border-radius: 10px;
+   height: 100vh;
 }
-.head{
-   color: black;
+.loginType{
+   transform: translateY(250px);
+   margin-left: 450px;
+   height: 400px;
+   width: 600px;
+   
+   background-color: black;
+  
+   border: 3px solid rgb(229, 227, 227);
+   border-radius: 10px;
+   box-shadow: 5px 5px 6px rgb(242, 240, 240);
+}
+.head h1{
+   margin-top: 30px;
+   color: white;
 }
 .login{
    margin-top: 100px;
@@ -29,32 +35,30 @@ body{
 }
 
 img{
+   margin-top: none;
   
    border-radius: 10px;
 }
 
 
- /* a{
-   text-decoration: none;
-   color: rgb(45, 230, 12); 
-} */
 
 
-button{
+.loginType button{
    width: 120px;
    padding: 10px 0;
    
    margin: 20px 10px;
    border-radius: 25px;
    font-weight: bold;
-   border: 2px solid #010101;
+   border: 2px solid white;
    background: transparent;
-   color: rgb(12, 152, 14);
+   color: rgb(254, 251, 254);
    cursor: pointer;
    position: relative;
    overflow: hidden;
 }
 
-button:hover{
-   border: none;
+.landingpage button:hover{
+   background-color:white;
+    color: black;
 }

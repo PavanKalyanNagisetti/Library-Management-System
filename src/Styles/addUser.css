@@ -15,7 +15,7 @@
 .forms input{
     margin-top: 5px;
     width: 400px;
-    height: 20px;
+    height: 30px;
 }
 .forms textarea{
     margin-top: 5px;
@@ -26,3 +26,24 @@
     margin-left: 180px;
     color: rgb(129, 38, 108);
 }
+.forms button{
+    width: 120px;
+    padding: 10px 0;
+    
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid black;
+    background: transparent;
+    color:  rgb(129, 38, 108);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+ }
+ 
+ .forms button:hover{
+    background-color:  rgb(129, 38, 108);
+    color: white;
+ }
+

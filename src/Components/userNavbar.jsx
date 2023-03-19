@@ -1,11 +1,12 @@
 
+
 import { Link } from "react-router-dom";
 const UserNavbar = () => {
     return ( 
         <div className="usernavbar">
             <div className="logo">
-                 {/* <img src="images/admin1.jpeg" height="10" width="40" alt="" />   */}
-                  <h1><b>User Portal</b> </h1>
+                 {/* <img src="/images/userslogo.jpg" height="100" width="300" alt="" />   */}
+                  <h1><b> User</b> <i> Portal </i> </h1>
             </div>
             <div className="lists">
                 <ul>

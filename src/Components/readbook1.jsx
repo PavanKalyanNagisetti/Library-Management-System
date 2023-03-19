@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
-const ReadBook = () => {
+const ReadBook1 = () => {
     let [book,setBook] =useState([])
     let params =useParams()
     useEffect(()=>{
@@ -15,7 +15,7 @@ const ReadBook = () => {
     let navigate = useNavigate()
   let back= (x)=>{
     x.preventDefault()
-         navigate('/userpage/book-list')
+         navigate('/adminpage/book-list')
   }
 
     return ( 
@@ -31,4 +31,4 @@ const ReadBook = () => {
      );
 }
  
-export default ReadBook;
+export default ReadBook1;

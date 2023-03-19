@@ -26,3 +26,23 @@
 .usercard{
     margin-left: 30px;
 }
+.usercard button{
+    width: 120px;
+    padding: 10px 0;
+    
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid black;
+    background: transparent;
+    color:  rgb(129, 38, 108);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+ }
+ 
+ .usercard button:hover{
+    background-color:  rgb(26, 177, 194);
+    color: white;
+ }

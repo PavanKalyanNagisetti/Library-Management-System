@@ -1,13 +1,20 @@
-
 .adminLogin{
-    display: flex;
-    justify-content: center;
+    background-image: url(/public/images/adminlogin.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.form-container1{
+    /* display: flex;
+    justify-content: center; */
     text-align: center;
-    margin: 230px auto;
+    /* margin: 230px auto; */
+    margin-left: 200px;
+    transform: translateY(350px);
+    
     width: 500px;
     height: 300px;
-    background-color: aliceblue;
-    border: 2px double rgb(14, 158, 214);
+    background-color: rgb(134, 169, 199);
+    border: 3px double rgb(6, 6, 6);
     border-radius: 10px;
 }
 input{
@@ -16,4 +23,27 @@ input{
     border-bottom: 2px solid black;
     border-radius: 5px;
     text-align: center;
+    margin-top: 10px;
 }
+.form-container1 h1{
+    margin-top: 25px;
+} 
+.form-container1 button{
+    width: 120px;
+    padding: 10px 0;
+    
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid black;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+ }
+ 
+ .form-container1 button:hover{
+    background-color:black;
+    color: white;
+ }

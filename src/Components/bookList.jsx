@@ -16,9 +16,9 @@ const BookList = () => {
         }
         fetchData()
     }, [books])
-    //delete a book from server
+     //delete a book from server
     let handleDelete = (id, title) => {                  //this method deletes the data permanently
-        fetch(`http://localhost:4000/books/${id}`, {
+        fetch(` http://localhost:4000/books/${id}`, {
             method: 'DELETE'
         });
         alert(`${title} will be deleted permanently`)

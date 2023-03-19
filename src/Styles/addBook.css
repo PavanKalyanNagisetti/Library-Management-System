@@ -26,4 +26,24 @@
     margin-left: 180px;
     color: rgb(42, 118, 219);
 }
+.form button{
+    width: 120px;
+    padding: 10px 0;
+    
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid black;
+    background: transparent;
+    color: rgb(42, 118, 219);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+ }
+ 
+ .form button:hover{
+    background-color: rgb(42, 118, 219);
+    color: white;
+ }
 
